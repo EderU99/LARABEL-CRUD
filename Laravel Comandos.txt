@@ -1,0 +1,25 @@
+Crear Carpeta con Laravel con composer:
+
+	1. abrir CMD con la ruta de la carpeta donde se realizara el proyecto. 
+	
+	composer create-project laravel/laravel Nombre_Proyecto
+
+Correr servidor PHP:
+	CMD Desde la ruta de la carpeta donde se creo el proyecto 
+
+	php artisan serve
+	
+
+Comando para enviar las migraciones a MySQL
+
+	php artisan migrate
+
+
+Crear una tabla en la carpeta de migraciones 
+
+	php artisan make:migration nombre_de_la_migracion_o_tabla
+
+
+Crear un modelo con relacion a una tabla (poner el mismo nombre) (y crear controlador con "-r")
+
+	php artisan make:model NombreModelo -r  
